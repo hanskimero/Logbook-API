@@ -1,0 +1,8 @@
+-- CreateTable
+CREATE TABLE "Log" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "route" TEXT NOT NULL,
+    "km" INTEGER NOT NULL,
+    "userId" INTEGER NOT NULL,
+    "date" TEXT NOT NULL
+);
